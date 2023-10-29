@@ -1,0 +1,119 @@
+
+
+body {
+margin: 0;
+padding: 0;
+font-family: 'Poppins', sans-serif;
+box-sizing: border-box;
+}
+
+.container .container-text{
+ position: absolute;
+ top: 18vh;
+ left: 17vh;
+ background-color: #000000ea;
+ width: 70vh; /* Define a largura do container */
+ height: 70vh; /* Define a altura do container */
+ border-radius: 3vh;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  margin: 5vh;
+}
+
+
+img{
+  width: 32rem;
+  position: absolute;
+  right: 0;
+  margin-right: 13vh;
+  top: 5vh; /* Isso define a posição no topo da página, você pode ajustar conforme necessário */
+  width: 90vh; /* Defina a largura da imagem conforme necessário */
+  height: auto; /* Isso mantém a proporção original da imagem */
+}
+
+#titulo{
+  text-align: center;
+  justify-content: center;
+  font-size: 2.25rem;
+  color: white;
+}
+
+
+
+label{
+  font-size: 1.1rem;
+  color: #e4edf8;
+  font-weight: 500;
+}
+
+.inputs{
+  background-color: transparent;
+  width: 100%;
+  font-size: 1.3rem;
+  color:#f8fafc;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.3rem;
+  margin-top: 3px;
+  text-decoration: none;
+  border: none;
+  border: 1px solid transparent;
+  border-image: linear-gradient(47deg, rgb(179, 248, 144), rgb(98, 192, 255)) 1;
+  
+}
+
+.inputs:focus{
+  outline: none;
+}
+
+.inputs input{
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  font-size: 1.3rem;
+  color:#f8fafc;
+  padding: 0 0.5rem;
+}
+
+.inputs::-webkit-outer-spin-button,
+.inputs::-webkit-inner-spin-button {
+  appearance: none;
+}
+
+button {
+  justify-content: center;
+  text-align: center;  
+}
+
+
+.button button{
+  border: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+  background-color: #00d0df;
+  color: #ecebeb;
+  padding: 0.5rem 0;
+  border-radius: 3px;
+  cursor: pointer;
+  justify-content: center;
+  width: 209px; /* Define a largura do botão */
+  height: 39px; /* Define a altura do botão */
+  display: inline; /* Torna os botões elementos de bloco */
+  margin-left: 14px; /* Define margens automáticas para centralizar horizontalmente */
+}
+
+h2{
+  text-align: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+}
+
+.resultado{
+  border-top: 1px solid #ffffff34;
+  padding: 0.75rem 0;
+}
